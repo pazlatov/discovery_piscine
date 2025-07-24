@@ -1,0 +1,1 @@
+paramaters = input()
