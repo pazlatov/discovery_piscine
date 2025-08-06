@@ -1,10 +1,6 @@
 def find_the_redheads(family):
-	redheads = []
-	for name, hair_color in family.items():
-		if hair_color == "red":
-			redheads.append(name)
-	return redheads
-
+    redheads = filter(lambda name: family[name] == "red", family)
+    return list(redheads)
 
 dupont_family = {
 "florian": "red",
