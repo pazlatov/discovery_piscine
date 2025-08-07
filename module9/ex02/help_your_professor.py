@@ -1,4 +1,5 @@
-def average():
+def average(scores):
+	return sum(scores.values()) / len(scores)
 
 class_3B = {
 "marine": 18,
